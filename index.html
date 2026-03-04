@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaneesh R | Cinematic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="glass">
+        <div class="logo">Dhaneesh R</div>
+
+        <!-- NAVIGATION -->
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <!-- Theme inside mobile -->
+                <li class="mobile-theme">
+                    <button id="mobileThemeToggle">🌙 Theme</button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <!-- Desktop Theme -->
+            <button id="themeToggle" class="desktop-theme">🌙</button>
+
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">☰</div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="glass hero-card reveal">
+            <h1>Video Editor & Multimedia Specialist</h1>
+            <p>
+                Crafting cinematic storytelling and delivering seamless live broadcast
+                experiences for brands, ministries, and global audiences.
+            </p>
+            <button class="btn" onclick="scrollToContact()">Hire Me</button>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="glass card reveal">
+            <h2>About Me</h2>
+            <p>
+                Senior Video Editor & Multimedia Production Specialist with 9+ years of experience in broadcast
+                production, post-production editing, and digital media optimization. Proven expertise in managing
+                end-to-end production workflows for corporate events, conferences, and live streaming environments.
+                Focused on delivering high-quality, strategically aligned visual content that enhances brand presence
+                and drives audience engagement.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2 class="reveal">Technical Skills</h2>
+        <div class="skills">
+            <div class="glass skill">Final Cut Pro</div>
+            <div class="glass skill">Adobe Premiere Pro</div>
+            <div class="glass skill">OBS Studio</div>
+            <div class="glass skill">vMix</div>
+            <div class="glass skill">Wirecast</div>
+            <div class="glass skill">StreamYard</div>
+            <div class="glass skill">Photoshop</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+   <section id="projects">
+    <h2 class="reveal">Featured Work</h2>
+
+    <div class="projects-container">
+
+        <!-- Advertisement Editing -->
+        <div class="glass project-card reveal">
+            <img src="./Image/Promo Edit.png" alt="Advertisement Editing">
+            <h3>Advertisement Editing</h3>
+            <p>High-impact commercial edits for digital & broadcast platforms.</p>
+
+            <div class="project-links">
+                <a href="https://youtu.be/Bayzo3EjkFQ?si=6OA5PhGNfMEZHtcY" target="_blank" class="view-btn">Video 1</a>
+                <a href="https://youtu.be/Rul7i4yibJM?si=F6cEGHyEuf9szENo" target="_blank" class="view-btn">Video 2</a>
+                <a href="https://youtu.be/4HXJ94aSpvo?si=2aWEOPgUttxEToFP" target="_blank" class="view-btn">Video 3</a>
+            </div>
+        </div>
+
+        <!-- Event Promotions -->
+        <div class="glass project-card reveal">
+            <img src="./Image/Event Edit.png" alt="Event Promotions">
+            <h3>Event Promo Video</h3>
+            <p>Professional event promo videos with dynamic storytelling.</p>
+
+            <div class="project-links">
+                <a href="https://youtu.be/ImUy-GnC5Pk?si=IWYYZLbdvMhYFbjq" target="_blank" class="view-btn">Video 1</a>
+                <a href="https://youtu.be/3eZbcMHb0HY?si=rpURMeW8jtrATFpO" target="_blank" class="view-btn">Video 2</a>
+                <a href="https://youtu.be/5j0rA6coTXg?si=xdfTFbpNSfc9ZQyO" target="_blank" class="view-btn">Video 3</a>
+            </div>
+        </div>
+
+        <!-- Podcast Production -->
+        <div class="glass project-card reveal">
+            <img src="./Image/Podcast.png" alt="Podcast Production">
+            <h3>Podcast Production</h3>
+            <p>Multi-camera podcast editing with brand optimization.</p>
+
+            <div class="project-links">
+                <a href="https://youtube.com/playlist?list=PLkSPu5aV17yTQWwHQrMFS0J9PXc2pO3qV&si=MG0--aZwHxc2WdNg" target="_blank" class="view-btn">View Playlist</a>
+            </div>
+        </div>
+
+        <!-- Live Streaming -->
+        <div class="glass project-card reveal">
+            <img src="./Image/Streaming.png" alt="Live Streaming">
+            <h3>Live Streaming</h3>
+            <p>End-to-end broadcast production & monitoring solutions.</p>
+
+            <div class="project-links">
+                <a href="https://youtube.com/playlist?list=PLkSPu5aV17ySJFK6H0wUwnYCTQZLtH4zf&si=c27xSgo9OVmsi2en" target="_blank" class="view-btn">View Playlist</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="glass card reveal">
+            <h2>Contact</h2>
+            <p>Hire me to deliver high-quality production, reliable service, <br> and strategic visual solutions that strengthen your brand and drive measurable growth.</p>
+            <p>Kerala, India</p>
+            <p>dhaneeshktr777@gmail.com</p>
+            <button class="btn" onclick="sendEmail()">Send Email</button>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Dhaneesh R | Cinematic Portfolio
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
